@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>form</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='main.js'></script>
+  <link href="Assets2/css/style.css">
+</head>
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: burlywood;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .container {
+    border-radius: 5px;
+    margin-right: 00px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+  }
+
+  .btn {
+    border-radius: 10%;
+
+  }
+
+  .body {
+    background-color: aqua;
+  }
+</style>
+
+<body>
+  <ul>
+    <li><a href="index2.html">Home</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="form.html">Form</a></li>
+
+  </ul>
+  <!-- <div class="container">
+    <div class="row">
+-->
+<div class="container">
+  <div class="row">
+      <h1 class="text-center style-h1">fill in the form</h1>  
+      <div id="displayName" class="fw-bold fs-2 text-center text-white"></div>
+      <section class="form container">
+          <div class="row">
+              <div class="col-md-8">
+                  <form class="myform w-100">
+                     
+                      <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Full name</span>
+                          <input type="int" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Phone Number</span>
+                          <input type="text" id="na" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                        </div><br>
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Next of kin</span>
+                          <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                        </div><br>
+                        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">study period</span>
+          <input type="number" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+        </div><br>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+          <input type="email" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default">
+        </div><br>
+        <div class="form-group mb-5">
+          <label for="date" class="mylabel mb-4">Enter Date of intake</label>
+          <input class="form-control input p-4" type="date" id="dateInput">
+          <div id="message" class=" text-danger"></div>
+      </div>
+                      <div class="">
+                          <label for="date" class="mylabel mb-4">Gender</label>
+  
+                          <div class="form-group mb-2">
+                              <div class="form-check form-check-inline w-25">
+                                  <label class="form-check-label radio">
+                                      <input class="form-check-input radio" type="radio" name="inlineRadioOptions"
+                                          id="maleRadio" value="option1"> Male
+                                  </label>
+                              </div>
+                              <div class="form-check form-check-inline w-15">
+                                  <label class="form-check-label radio">
+                                      <input class="form-check-input radio" type="radio" name="inlineRadioOptions"
+                                          id="femaleRadio" value="option2"> Female
+                                  </label>
+                              </div>
+                          </div>
+                          <div id="messageOne" class=" text-danger mb-4"></div>
+  
+                          <a id="btn" onclick="getFormInput()" class="btn btn-primary p-3">  submit</a>
+                        
+                      </div>
+                  </form>
+              </div>
+              <!--<div class="col-md-4 img">
+                  <img src="hos1.jpg" alt="hospital" width="450px" height="350px">
+              </div> -->
+          </div>
+          <h1 class="text-center  mb-5">Thank you for trusting our services</h1>
+      </section>      
+      </div>
+  </div>
+</div>
+
+
+  <script type="text/javascript" src="./Assets2/js/main.js"></script>
+</body>
+
+</html>
