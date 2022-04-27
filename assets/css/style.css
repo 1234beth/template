@@ -681,7 +681,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/*.portfolio-details {
   padding-top: 40px;
 }
 .portfolio-details .portfolio-details-slider img {
@@ -731,6 +731,7 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+*/
 
 /*--------------------------------------------------------------
 # Testimonials
